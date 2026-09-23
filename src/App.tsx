@@ -205,7 +205,7 @@ function CountdownTimer() {
   );
 }
 
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwM3r0YQsD1bv065C3imknuKVvQCWtQLy3CTycQCRlZ8UhUUA2npwvbPVL91OV3E2zp/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxuGTj0NvL9KnWdpCBx7rawtYHWRtHSwllWSYEONdnhaIPyTnFvJGOp2srwBrNpoant/exec";
 
 export default function WeddingInvitation() {
   const [isOpened, setIsOpened] = useState(false);
@@ -370,7 +370,7 @@ export default function WeddingInvitation() {
                   muted
                   playsInline
                   onEnded={openInvitation}
-                  className="w-full h-full object-cover shadow-[0_25px_60px_-15px_rgba(0,0,0,0.2)]"
+                  className="w-full h-full object-cover shadow-[0_25px_60px_-15px_rgba(0,0,0,0.2)] mix-blend-multiply"
                   src="/Use_the_uploaded_202604161807.mp4"
                 />
                 {/* Colorful Frame for the strip */}
@@ -709,7 +709,7 @@ export default function WeddingInvitation() {
                       <div className="flex items-center gap-6 mt-6">
                         <div className="w-12 md:w-20 h-[1.5px] bg-gradient-to-r from-transparent to-theme-300" />
                         <div className="flex flex-col items-center">
-                          <p className="font-cinzel text-[21px] md:text-2xl text-theme-700 font-bold tracking-[0.2em]">05:02 PM</p>
+                          <p className="font-cinzel text-[21px] md:text-2xl text-theme-700 font-bold tracking-[0.2em]">05:00 PM</p>
                           <p className="text-[8px] md:text-[9px] uppercase tracking-[0.3em] text-theme-400 font-bold mt-1">Onwards</p>
                         </div>
                         <div className="w-12 md:w-20 h-[1.5px] bg-gradient-to-l from-transparent to-theme-300" />
@@ -870,7 +870,7 @@ export default function WeddingInvitation() {
                     <div className="h-px w-16 md:w-24 bg-gradient-to-l from-transparent to-theme-300" />
                   </div>
                   <p className="text-stone-300 text-[15px] md:text-base max-w-md mx-auto leading-relaxed mb-16 tracking-wide font-light">
-                    We would be absolutely thrilled to celebrate with you. Kindly RSVP before 2nd September.
+                    We would be absolutely thrilled to celebrate with you. Kindly RSVP before November 5th.
                   </p>
 
                   {/* Premium RSVP Form */}
